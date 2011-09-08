@@ -1,3 +1,9 @@
+@mixin clearfix {
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+  zoom: 1;
+}
+
 /* HTML5  Boilerplate
  * ==|== normalize ==========================================================
  */
@@ -119,6 +125,27 @@ header {
   }
 }
 
+#primary, #secondary, footer {
+  * {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+footer {
+  clear: both;
+  margin-top: 1.5em;
+  border-top: 2px solid #BA94E5;
+  padding-top: 0.5em;
+  margin-bottom: 3em;
+  color: #76539B;
+  @include clearfix;
+
+  .contact-details {
+    margin-top: 1em;
+  }
+}
+
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
@@ -126,10 +153,9 @@ header {
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 .invisible { visibility: hidden; }
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
+.clearfix {
+  @include clearfix;
+}
 
 /* ==|== media queries ====================================================== */
 
@@ -155,6 +181,31 @@ header {
       font-size: 2.1em;
     }
   }
+
+  #primary {
+    width: 66%;
+    float: left;
+  }
+
+  #secondary {
+    width: 33%;
+    float: right;
+  }
+
+  footer {
+    .awards {
+      width: 50%;
+      float: left;
+    }
+
+    .contact-details {
+      margin-top: 0;
+      width: 45%;
+      float: right;
+      text-align: right;
+    }
+  }
+
 }
 
 

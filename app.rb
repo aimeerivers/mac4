@@ -51,3 +51,7 @@ get "/" do
   haml :index
 end
 
+get "/treatments/ipl-permanent-hair-reduction" do
+  haml :'treatments/ipl-permanent-hair-reduction'
+end
+

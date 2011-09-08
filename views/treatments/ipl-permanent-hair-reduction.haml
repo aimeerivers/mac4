@@ -1,0 +1,33 @@
+#primary
+  %h1 IPL Permanent Hair Reduction
+
+  %h2 Overview
+  .float-left
+    %img(src='/images/treatments/ipl-permanent-hair-reduction/ipl-permanent-hair-reduction-303.jpg')
+
+  %h3 How does the system work?
+  %p
+    The energy from the light source is taken up by the pigments (melanin and haemoglobin) in the skin, hairs and blood vessels. Hair removal is accomplished by the generation of heat from light in the melanin, which is then transferred to the hair follicle (root). The system can be used for hair removal, vascular lesions and pigmented lesions.
+
+  %p
+    Pulse times of this applied light have been chosen to destroy the hair follicle by heating for at least 1 millisecond (one thousandth of a second) to 70 degrees centigrade.
+
+  %h3 Why is gel used?
+  %p
+    It is necessary to apply a thin layer of gel to the skin prior to treatment to ensure an optimal optical transmission of light from the applicator to the skin.
+
+  %h3 How is the treatment carried out?
+  %p
+    The applicator (hand piece) is placed in contact with the skin surface and the light pulsed through it onto the skin. The applicator is then moved to the neighbouring area and the process is repeated.
+
+  %h2 Before/After Pictures
+  - key = 'ipl-permanent-hair-reduction'
+
+  = partial :'partials/treatments/before-after', locals: {key: key, before_image: 'young-female-with-abundant-facial-hair.jpg', before_text: 'Young female with abundant facial hair', after_image: 'young-female-after-four-treatments.jpg', after_text: 'after four treatments', main_text: 'Young female with abundant facial hair, before and after four treatments.'}
+
+  = partial :'partials/treatments/before-after', locals: {key: key, before_image: 'female-with-heavy-facial-hair-growth.jpg', before_text: 'Female with heavy facial hair growth', after_image: 'female-after-pulsar-treatments.jpg', after_text: 'after Pulsar treatments', main_text: 'Female with heavy facial hair growth, before and after Pulsar treatments.'}
+
+  = partial :'partials/treatments/before-after', locals: {key: key, before_image: 'bikini-area-before.jpg', before_text: 'Bikini area before', after_image: 'bikini-area-after.jpg', after_text: 'Bikini area after', main_text: 'Bikini area, before and after treatments.'}
+
+#secondary
+  = partial :'partials/treatments/ipl-permanent-hair-reduction/faq'

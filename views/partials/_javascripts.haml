@@ -1,0 +1,13 @@
+-# Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+%script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js")
+:javascript
+  window.jQuery || document.write("<script src='javascripts/libs/jquery-1.6.2.min.js'>\x3C/script>")
+
+-# Application scripts
+%script(type="text/javascript" src="javascripts/plugins.js")
+%script(type="text/javascript" src="javascripts/script.js")
+
+/[if lt IE 7 ]
+  %script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js")
+  :javascript
+    window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})

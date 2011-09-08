@@ -1,0 +1,27 @@
+Bootstrap a Sinatra application with Html5-boilerplate already included.
+The app uses Haml and Sass. A partials helper is available
+
+The application is deployable on Heroku Cedar stack.
+
+Usage:
+- rvm use 1.9.2@boilerplate --create --rvmrc
+- bundle install
+- foreman start
+- open http://localhost:5000
+
+Deploying:
+- gem install heroku
+- heroku create appname --stack cedar
+- git push heroku master
+- heroku open
+
+Use:
+- Sinatra : http://www.sinatrarb.com
+- Html5-boilerplate : http://html5boilerplate.com/
+- Haml and Sass : http://haml-lang.com
+- Partials : https://gist.github.com/119874
+- Foreman : https://github.com/ddollar/foreman
+
+There is no:
+- Database pre-configured
+- Models, controllers... Just a plain simple Sinatra app !

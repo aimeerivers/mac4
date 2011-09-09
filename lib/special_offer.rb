@@ -11,32 +11,8 @@ class SpecialOffer
 
     def by_key(key)
       return if key.nil?
-      send(key.gsub('-', '_').to_sym)
-    end
-
-    def ipl_permanent_hair_reduction
-      new(key: 'ipl-permanent-hair-reduction',
-          short_description: '20% off when you purchase a course of 3 IPL treatments in <<month>>.',
-          long_description: '<p>Book a course of 3 treatments and enjoy a <strong>limited offer of 20% off.</strong> You can choose to have a single area treated or combine up to 3 different areas. Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>>.',
-          link: '/treatments/ipl-permanent-hair-reduction',
-          small_image: '/images/callouts/special_offer.png',
-          large_image: '/images/treatments/ipl-permanent-hair-reduction/ipl-permanent-hair-reduction-123.jpg')
-    end
-
-    def wrinkle_relaxing_injections
-      new(key: 'wrinkle-relaxing-injections',
-          short_description: '20% off botox treatment.',
-          link: '/treatments/wrinkle-relaxing-injections',
-          small_image: '/images/treatments/wrinkle-relaxing-injections/wrinkle-relaxing-injections-88.jpg')
-    end
-
-    def dermaroller
-      new(key: 'dermaroller',
-          short_description: '20% off a treatment with the Genuine Dermaroller.',
-          long_description: '20% off a treatment with the Genuine Dermaroller.',
-          link: '/treatments/dermaroller',
-          small_image: '/images/treatments/dermaroller/dermaroller-88.jpg',
-          large_image: '/images/treatments/dermaroller/dermaroller-88.jpg')
+      attrs = YAML::load_file(File.dirname(__FILE__) + '/special_offers.yml')[key]
+      new(attrs.merge(key: key)) unless attrs.nil?
     end
   end
 

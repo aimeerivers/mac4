@@ -290,7 +290,11 @@ header {
     background: #EFEAF9;
   }
 
-  .box.gift-vouchers, .box.find-us {
+  .box.special-offer {
+    background: #D4CCE0;
+  }
+
+  .box.gift-vouchers, .box.find-us, .box.special-offer {
     img {
       width: 30%;
       float: right;

@@ -1,0 +1,13 @@
+- date = Date.today
+- special_offer = SpecialOffer.for_month(date.strftime('%B %Y'))
+
+- return if special_offer.nil?
+- return if special_offer.key == current_page
+
+.box.special-offer
+  %h2= "#{date.strftime('%B')} Offer"
+  %a(href="#{special_offer.link}")
+    %img(src="#{special_offer.small_image}" alt='')
+  %p== #{special_offer.short_description} in #{date.strftime('%B')}.
+  %p
+    %a(href="#{special_offer.link}") find out more &gt;

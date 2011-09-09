@@ -4,5 +4,5 @@ Given /^the current special offer is "([^"]*)"$/ do |offer_key|
 end
 
 Then /^I should not see a special offer box$/ do
-  page.should have_no_css('.box.special-offer')
+  page.should have_no_css('#secondary .box.special-offer')
 end

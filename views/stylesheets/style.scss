@@ -181,6 +181,26 @@ header {
       width: 44%;
     }
   }
+
+  .box.special-offer {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #B7A7CB;
+    background: #D4CCE0;
+    padding: 10px;
+    @include clearfix;
+    @include border-radius(5px);
+
+    p {
+      font-size: 0.9em;
+    }
+
+    img {
+      width: 35%;
+      float: right;
+      margin: 1em 10px;
+    }
+  }
 }
 
 #secondary {
@@ -351,6 +371,12 @@ footer {
       margin-bottom: 20px;
       @include clearfix;
     }
+
+    .box.special-offer {
+      img {
+        width: 22%;
+      }
+    }
   }
 
   #secondary {
@@ -377,6 +403,12 @@ footer {
   #primary {
     width: 66%;
     float: left;
+
+    .box.special-offer {
+      img {
+        width: 24%;
+      }
+    }
   }
 
   #secondary {

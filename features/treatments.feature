@@ -11,5 +11,6 @@ Feature: Treatements
   Scenario: Dermaroller
     When I go to the Dermaroller treatment page
     Then I should see the heading "Genuine Dermaroller™ Therapy"
+    And I should see the page title "Genuine Dermaroller™ Therapy - Natural skin regeneration and scar repair therapy available at The Medical Aesthetic Clinic in Winchester"
     And I should see "Single treatment" within ".prices"
     And I should see "A course of 3 treatments is recommended" within ".prices"

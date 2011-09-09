@@ -57,3 +57,6 @@ get "/treatments/ipl-permanent-hair-reduction" do
   haml :'treatments/ipl-permanent-hair-reduction'
 end
 
+get "/treatments/dermaroller" do
+  haml :'treatments/dermaroller'
+end

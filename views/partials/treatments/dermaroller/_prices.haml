@@ -1,0 +1,7 @@
+- prices = YAML::load_file(File.dirname(__FILE__) + '/../../../../lib/prices/dermaroller.yml')
+
+.box.prices
+  %h2 Price guide
+  = partial :'partials/treatments/prices', locals: {prices: prices}
+
+  %p A course of 3 treatments is recommended, spaced 6-8 weeks apart, then perhaps one treatment once a year.

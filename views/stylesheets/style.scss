@@ -200,6 +200,22 @@ header {
         margin-right: 0;
       }
     }
+
+    a {
+      color: #60438E;
+      &:hover {
+        color: #513184;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        margin-bottom: 1px;
+      }
+    }
   }
 
   .box.faq {
@@ -245,6 +261,10 @@ header {
       color: #745198;
       text-align: center;
     }
+  }
+
+  .box.treatments {
+    background: #E9E3EF;
   }
 }
 

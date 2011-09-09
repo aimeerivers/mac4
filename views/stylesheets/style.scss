@@ -190,6 +190,7 @@ header {
     margin-bottom: 10px;
     background: #E5ECF9;
     @include border-radius(5px);
+    @include clearfix;
 
     * {
       margin-left: 10px;
@@ -238,7 +239,6 @@ header {
 
   .box.prices {
     background: #D4CCE0;
-    @include clearfix;
 
     dl {
       dt {
@@ -269,20 +269,10 @@ header {
 
   .box.gift-vouchers {
     background: #FCE0F8;
-    @include clearfix;
-
-    img {
-      width: 30%;
-      float: right;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 1em;
-    }
   }
 
   .box.products {
     background: #FFE3FC;
-    @include clearfix;
 
     .product {
       clear: both;
@@ -293,6 +283,20 @@ header {
         margin-right: 10px;
         margin-bottom: 1em;
       }
+    }
+  }
+
+  .box.find-us {
+    background: #EFEAF9;
+  }
+
+  .box.gift-vouchers, .box.find-us {
+    img {
+      width: 30%;
+      float: right;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 1em;
     }
   }
 }

@@ -3,7 +3,7 @@
 #primary
   %h1 IPL Permanent Hair Reduction
 
-  = partial :'partials/special-offer', locals: {current_page: 'ipl-permanent-hair-reduction'}
+  = partial :'partials/special-offer', locals: {current_page: 'ipl-permanent-hair-reduction', type: 'primary'}
 
   %h2 Overview
   .float-left
@@ -37,4 +37,4 @@
   = partial :'partials/treatments/ipl-permanent-hair-reduction/faq'
   = partial :'partials/treatments/ipl-permanent-hair-reduction/prices'
   = partial :'partials/treatments/list'
-  = partial :'partials/boxes/special-offer', locals: {current_page: 'ipl-permanent-hair-reduction'}
+  = partial :'partials/special-offer', locals: {current_page: 'ipl-permanent-hair-reduction', type: 'secondary'}

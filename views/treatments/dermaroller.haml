@@ -3,7 +3,7 @@
 #primary
   %h1 Genuine Dermaroller&trade; Therapy
 
-  = partial :'partials/special-offer', locals: {current_page: 'dermaroller'}
+  = partial :'partials/special-offer', locals: {current_page: 'dermaroller', type: 'primary'}
 
   %h2 Overview
 
@@ -38,8 +38,8 @@
 
 #secondary
   = partial :'partials/treatments/dermaroller/prices'
-  = partial :'partials/boxes/gift-vouchers'
+  = partial :'partials/gift-vouchers'
   = partial :'partials/treatments/list'
   = partial :'partials/products/list'
-  = partial :'partials/boxes/find-us'
-  = partial :'partials/boxes/special-offer', locals: {current_page: 'dermaroller'}
+  = partial :'partials/find-us'
+  = partial :'partials/special-offer', locals: {current_page: 'dermaroller', type: 'secondary'}

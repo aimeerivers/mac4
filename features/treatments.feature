@@ -20,3 +20,4 @@ Feature: Treatements
     When I go to the Botox treatment page
     Then I should see the heading "Wrinkle Relaxing Injections"
     And I should see the page title "Wrinkle Relaxing Injections at The Medical Aesthetic Clinic in Winchester"
+    And I should see "Single treatment" within ".prices"

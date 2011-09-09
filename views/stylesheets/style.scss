@@ -4,6 +4,12 @@
   zoom: 1;
 }
 
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
 /* HTML5  Boilerplate
  * ==|== normalize ==========================================================
  */
@@ -73,7 +79,6 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body {
-  background-color: red;
   color: #513184;
   font-size: 16px;
   line-height: 1.5;
@@ -133,7 +138,7 @@ header {
   }
 }
 
-#primary {
+#primary, #secondary {
   h1, h2, h3, h4, h5, h6 {
     color: #513184;
     line-height: 1.2;
@@ -162,7 +167,9 @@ header {
     margin-left: 0;
     margin-right: 0;
   }
+}
 
+#primary {
   .float-left {
     img {
       width: 95%;
@@ -171,8 +178,46 @@ header {
 
   .before-after {
     img {
-      width: 44.5%;
+      width: 44%;
     }
+  }
+}
+
+#secondary {
+  .box {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background: #E5ECF9;
+    @include border-radius(5px);
+
+    * {
+      margin-left: 10px;
+      margin-right: 10px;
+
+      * {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    dl {
+      dt {
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+      }
+
+      dd {
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .box.faq {
+    background: #FEE1FA;
   }
 }
 
@@ -204,10 +249,6 @@ footer {
 /* ==|== media queries ====================================================== */
 
 @media only screen and (min-width: 480px) {
-  body {
-    background-color: green;
-  }
-
   header {
     p.title {
       font-size: 2em;

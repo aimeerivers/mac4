@@ -266,6 +266,23 @@ header {
   .box.treatments {
     background: #E9E3EF;
   }
+
+  .box.gift-vouchers {
+    background: #FCE0F8;
+    @include clearfix;
+
+    img {
+      width: 30%;
+      float: right;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+  }
 }
 
 footer {

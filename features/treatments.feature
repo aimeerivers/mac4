@@ -14,3 +14,4 @@ Feature: Treatements
     And I should see the page title "Genuine Dermaroller™ Therapy - Natural skin regeneration and scar repair therapy available at The Medical Aesthetic Clinic in Winchester"
     And I should see "Single treatment" within ".prices"
     And I should see "A course of 3 treatments is recommended" within ".prices"
+    And I should see "We offer gift vouchers" within ".gift-vouchers"

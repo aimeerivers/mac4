@@ -279,6 +279,22 @@ header {
       margin-bottom: 1em;
     }
   }
+
+  .box.products {
+    background: #FFE3FC;
+    @include clearfix;
+
+    .product {
+      clear: both;
+
+      img {
+        width: 20%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 1em;
+      }
+    }
+  }
 }
 
 footer {

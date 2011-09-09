@@ -1,0 +1,8 @@
+- prices = YAML::load_file(File.dirname(__FILE__) + '/../../../../lib/prices/ipl-permanent-hair-reduction.yml')
+
+.box.prices
+  %h2 Price guide (women)
+  = partial :'partials/treatments/prices', locals: {prices: prices[:women]}
+.box.prices
+  %h2 Price guide (men)
+  = partial :'partials/treatments/prices', locals: {prices: prices[:men]}

@@ -11,6 +11,8 @@ Dir["lib/**/*.rb"].each {|f| require "./#{f}"}
 # Allow rendering of partials. See: https://gist.github.com/119874
 helpers Sinatra::Partials
 
+helpers ApplicationHelper
+
 configure do
   # Default Haml format is :xhtml
   set :haml, { :format => :html5 }

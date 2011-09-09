@@ -1,0 +1,14 @@
+%dl
+  - if prices.size < 10
+    - prices.each do |price|
+      = partial :'partials/treatments/price', locals: {price: price}
+
+  - else
+    - prices[0..4].each do |price|
+      = partial :'partials/treatments/price', locals: {price: price}
+
+    .all_other_prices
+      - prices[5..-1].each do |price|
+        = partial :'partials/treatments/price', locals: {price: price}
+
+  .expand-collapse(style='display:none;') view all

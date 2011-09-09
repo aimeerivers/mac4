@@ -18,3 +18,36 @@
   link: '/treatments/dermaroller'
   small_image: '/images/treatments/dermaroller/dermaroller-88.jpg'
   large_image: '/images/treatments/dermaroller/dermaroller-88.jpg'
+
+'dermal-fillers':
+  short_description: 'Course of 3 Restylane Vital treatments for &pound;500 (saving &pound;200)'
+  long_description: "<p><em>Skin Rejuvenation From Within.</em><br>As a special Spring offer, book a <strong>course of 3</strong> for <strong>&pound;500 (saving &pound;200).</strong> Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>></p>."
+  link: '/treatments/dermal-fillers'
+  small_image: '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
+  large_image: '/images/treatments/dermal-fillers/dermal-fillers-123.jpg'
+
+'microdermabrasion':
+  short_description: '20% off when you purchase a course of 3 microdermabrasion treatments in <<month>>.'
+  long_description: "<p>Book a course of 3 treatments and enjoy a <strong>limited offer of 20% off.</strong> Normal price &pound;65 per treatment. Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>>.</p>"
+  link: '/treatments/microdermabrasion'
+  small_image: '/images/treatments/microdermabrasion/microdermabrasion-88.jpg'
+
+'fire-and-ice':
+  short_description: '20% off when you purchase a course of 3 Fire and Ice facial treatments in <<month>>'
+  long_description: "<p>Book a course of 3 treatments and enjoy a <strong>limited offer of 20% off.</strong> Normal price &pound;65 per treatment. Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>>.</p>"
+  link: '/products/is-clinical/#fire-and-ice'
+  small_image: '/images/products/is-clinical/fire-and-ice-88.jpg'
+
+'jane-iredale':
+  short_description: 'A personal consultation with our Jane Iredale Professional Make Up Artist'
+  long_description: "<p>Jane Iredale, advanced technology pure mineral Make Up with no preservatives, chemicals or fillers. (SPF20).</p><p>Book your personal consultation with our Jane Iredale professional Make Up artist.  A full colour consultation and make-up for a booking fee of &pound;20, which is redeemable against any Jane Iredale products that you purchase.</p><p>Our Expert will guide you in selecting the perfect colours to match your skin tone.</p>"
+  link: '/products/jane-iredale'
+  small_image: '/images/products/jane-iredale/jane-iredale-brown-eyes-88.jpg'
+  large_image: '/images/products/jane-iredale/jane-iredale-brown-eyes-223.jpg'
+
+'jan-marini':
+  short_description: 'Jan Marini Skin Care and Fire and Ice Facials'
+  long_description: "<p>During <<month>>, purchase the following for the offer price of &pound;185.00:</p><ul><li>Jan Marini’s Bioglycolic Facial Cleanser</li><li>Bioglycolic Bioclear Facial Lotion or Cream</li><li>Antioxidant Daily Face Protectant SPF30</li><li>and a Fire and Ice Facial</li></ul><p>Normal price &pound;233.00</p><p>Although the package runs for <<month>> only, you are free to have your Fire and Ice Facial at a time suitable for you.</p>"
+  link: '/products/jan-marini'
+  small_image: '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg'
+  large_image: '/images/products/jan-marini/jan-marini-bioclear-cream-123.jpg'

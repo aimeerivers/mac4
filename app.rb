@@ -60,3 +60,7 @@ end
 get "/treatments/dermaroller" do
   haml :'treatments/dermaroller'
 end
+
+get "/treatments/wrinkle-relaxing-injections" do
+  haml :'treatments/wrinkle-relaxing-injections'
+end

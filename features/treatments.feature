@@ -15,3 +15,8 @@ Feature: Treatements
     And I should see "Single treatment" within ".prices"
     And I should see "A course of 3 treatments is recommended" within ".prices"
     And I should see "We offer gift vouchers" within ".gift-vouchers"
+
+  Scenario: Wrinkle relaxing injections
+    When I go to the Botox treatment page
+    Then I should see the heading "Wrinkle Relaxing Injections"
+    And I should see the page title "Wrinkle Relaxing Injections at The Medical Aesthetic Clinic in Winchester"

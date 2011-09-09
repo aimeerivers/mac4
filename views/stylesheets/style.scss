@@ -295,6 +295,15 @@ footer {
       @include clearfix;
     }
   }
+
+  #secondary {
+    clear: both;
+
+    .box {
+      width: 48%;
+      float: left;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -314,8 +323,14 @@ footer {
   }
 
   #secondary {
+    clear: none;
     width: 33%;
     float: right;
+
+    .box {
+      width: 95%;
+      float: none;
+    }
   }
 
   footer {

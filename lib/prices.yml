@@ -1,0 +1,57 @@
+---
+'ipl-permanent-hair-reduction':
+  'women':
+    - [Sides of face, 80]
+    - [Half of face, 120]
+    - ['&frac34; face', 150]
+    - [Whole face, 175]
+    - [Lip and chin, 80]
+    - [Upper lip, 45]
+    - [Chin, 65]
+    - [Jaw line, 65]
+    - [Neck, 80]
+    - [Centre eyebrows, 20]
+    - [Above eyebrows, 35]
+    - [Underarm, 80]
+    - [Bikini, 90]
+    - [Extended bikini, 130]
+    - [Stomach line, 50]
+    - [Half arms, 80]
+    - [Arms, 150]
+    - [Chest, 80]
+    - [Cleavage, 50]
+    - [Nipples, 30]
+    - [Buttocks, 100]
+    - [Full back, 250]
+    - [Upper back, 100]
+    - [Lower back, 80]
+    - [Hands or feet (each), 50]
+    - [Shoulders, 100]
+    - [Lower legs, 200]
+    - [Upper legs, 200]
+    - [Full legs, 400]
+
+  'men':
+    - [Hands or feet, 100]
+    - [Shoulders, 170]
+    - [Full back, 300]
+    - [Chest, 185]
+    - [Full legs, 500]
+    - [Stomach, 140]
+    - [Lower arms, 120]
+    - [Upper arms, 120]
+    - [Full arms, 200]
+    - [Beard, 225]
+    - [Back of neck, 80]
+    - [Nose, 30]
+    - [Moustache, 50]
+    - [Upper cheeks, 30]
+
+'dermaroller':
+  - [Single treatment, 280]
+
+'wrinkle-relaxing-injections':
+  - [Single treatment starts from, 200]
+
+'sclerotherapy':
+  - [Sclerotherapy treatment, 100]

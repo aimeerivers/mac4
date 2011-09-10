@@ -21,3 +21,8 @@ Feature: Treatements
     Then I should see the heading "Wrinkle Relaxing Injections"
     And I should see the page title "Wrinkle Relaxing Injections at The Medical Aesthetic Clinic in Winchester"
     And I should see "Single treatment" within ".prices"
+
+  Scenario: Dermal fillers
+    When I go to the Dermal fillers treatment page
+    Then I should see the heading "Dermal Fillers"
+    And I should see the page title "Dermal Fillers - Restylane - Juvéderm - at The Medical Aesthetic Clinic in Winchester"

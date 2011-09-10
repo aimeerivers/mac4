@@ -90,6 +90,10 @@ body {
   margin: 0 auto;
 }
 
+.clear {
+  clear: both;
+}
+
 header {
   p.title {
     text-align: center;
@@ -170,7 +174,7 @@ header {
 }
 
 #primary {
-  .float-left {
+  .float {
     img {
       width: 95%;
     }
@@ -360,11 +364,19 @@ footer {
   }
 
   #primary {
-    .float-left {
+    .float {
       width: 50%;
-      margin-right: 10px;
       margin-bottom: 10px;
       float: left;
+
+      &.left {
+        margin-right: 10px;
+      }
+
+      &.right {
+        margin-left: 10px;
+        float: right;
+      }
     }
 
     .before-after {

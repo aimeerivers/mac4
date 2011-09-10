@@ -22,6 +22,9 @@ module NavigationHelpers
     when /the Botox treatment page/
       '/treatments/wrinkle-relaxing-injections'
 
+    when /the Dermal fillers treatment page/
+      '/treatments/dermal-fillers'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

@@ -33,3 +33,4 @@ Feature: Treatements
     Then I should see the heading "Sclerotherapy treatment"
     And I should see the page title "Sclerotherapy treatment at The Medical Aesthetic Clinic in Winchester"
     And I should see "How does it work?" within ".faq"
+    And I should see "Sclerotherapy treatment" within ".prices"

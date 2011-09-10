@@ -39,3 +39,4 @@ Feature: Treatements
     When I go to the Microdermabrasion treatment page
     Then I should see the heading "Microdermabrasion treatment"
     And I should see the page title "Microdermabrasion treatment at The Medical Aesthetic Clinic in Winchester"
+    And I should see "Course of 6 treatments" within ".prices"

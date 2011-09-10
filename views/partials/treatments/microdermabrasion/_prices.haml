@@ -1,0 +1,5 @@
+- prices = YAML::load_file(File.dirname(__FILE__) + '/../../../../lib/prices.yml')['microdermabrasion']
+
+.box.prices
+  %h2 Price guide
+  = partial :'partials/treatments/prices', locals: {prices: prices}

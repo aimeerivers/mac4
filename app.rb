@@ -53,18 +53,6 @@ get "/" do
   haml :index
 end
 
-get "/treatments/ipl-permanent-hair-reduction" do
-  haml :'treatments/ipl-permanent-hair-reduction'
-end
-
-get "/treatments/dermaroller" do
-  haml :'treatments/dermaroller'
-end
-
-get "/treatments/wrinkle-relaxing-injections" do
-  haml :'treatments/wrinkle-relaxing-injections'
-end
-
-get "/treatments/dermal-fillers" do
-  haml :'treatments/dermal-fillers'
+get /\/treatments\/(ipl-permanent-hair-reduction|dermaroller|wrinkle-relaxing-injections|dermal-fillers)/ do |treatment|
+  haml :"treatments/#{treatment}"
 end

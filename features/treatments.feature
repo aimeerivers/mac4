@@ -26,3 +26,4 @@ Feature: Treatements
     When I go to the Dermal fillers treatment page
     Then I should see the heading "Dermal Fillers"
     And I should see the page title "Dermal Fillers - Restylane - Juvéderm - at The Medical Aesthetic Clinic in Winchester"
+    And I should see "What is Restylane?" within ".faq"

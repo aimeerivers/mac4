@@ -139,6 +139,11 @@ header {
   * {
     margin-left: 5px;
     margin-right: 5px;
+
+    * {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 

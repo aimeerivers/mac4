@@ -27,3 +27,8 @@ Feature: Treatements
     Then I should see the heading "Dermal Fillers"
     And I should see the page title "Dermal Fillers - Restylane - Juvéderm - at The Medical Aesthetic Clinic in Winchester"
     And I should see "What is Restylane?" within ".faq"
+
+  Scenario: Sclerotherapy
+    When I go to the Sclerotherapy treatment page
+    Then I should see the heading "Sclerotherapy treatment"
+    And I should see the page title "Sclerotherapy treatment at The Medical Aesthetic Clinic in Winchester"

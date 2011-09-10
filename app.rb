@@ -53,13 +53,10 @@ get "/" do
   haml :index
 end
 
-treatments = [
-  'ipl-permanent-hair-reduction',
-  'dermaroller',
-  'wrinkle-relaxing-injections',
-  'dermal-fillers'
-]
+def views_in(directory)
+  Dir.glob(File.join(File.dirname(__FILE__), 'views', directory, '*.haml')).map{|file| File.basename(file, '.haml')}
+end
 
-get /\/treatments\/(#{treatments.join('|')})/ do |treatment|
+get /\/treatments\/(#{views_in('treatments').join('|')})/ do |treatment|
   haml :"treatments/#{treatment}"
 end

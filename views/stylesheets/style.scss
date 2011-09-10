@@ -171,17 +171,20 @@ header {
   img {
     border: 1px solid #C8BBD7;
   }
-
-  div {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 #primary {
   .float {
     img {
       width: 95%;
+    }
+
+    &.small {
+      text-align: center;
+
+      img {
+        width: 50%;
+      }
     }
   }
 
@@ -373,6 +376,14 @@ footer {
       width: 50%;
       margin-bottom: 10px;
       float: left;
+
+      &.small {
+        width: 35%;
+
+        img {
+          width: 100%;
+        }
+      }
 
       &.left {
         margin-right: 10px;

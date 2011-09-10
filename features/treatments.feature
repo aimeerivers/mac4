@@ -34,3 +34,8 @@ Feature: Treatements
     And I should see the page title "Sclerotherapy treatment at The Medical Aesthetic Clinic in Winchester"
     And I should see "How does it work?" within ".faq"
     And I should see "Sclerotherapy treatment" within ".prices"
+
+  Scenario: Microdermabrasion
+    When I go to the Microdermabrasion treatment page
+    Then I should see the heading "Microdermabrasion treatment"
+    And I should see the page title "Microdermabrasion treatment at The Medical Aesthetic Clinic in Winchester"

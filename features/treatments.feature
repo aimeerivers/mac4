@@ -45,3 +45,4 @@ Feature: Treatements
     When I go to the Diathermy treatment page
     Then I should see the heading "Diathermy treatment"
     And I should see the page title "Diathermy treatment at The Medical Aesthetic Clinic in Winchester"
+    And I should see "Single treatment starts from" within ".prices"

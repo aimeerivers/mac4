@@ -52,6 +52,9 @@ module NavigationHelpers
     when /the About us page/
       '/about'
 
+    when /the Links page/
+      '/links'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

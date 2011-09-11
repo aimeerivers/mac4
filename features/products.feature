@@ -14,3 +14,8 @@ Feature: Products
     When I go to the Jane Iredale products page
     Then I should see the heading "Jane Iredale mineral make up"
     And I should see the page title "Jane Iredale mineral make up available at The Medical Aesthetic Clinic in Winchester"
+
+  Scenario: iS CLINICAL
+    When I go to the iS CLINICAL products page
+    Then I should see the heading "iS CLINICAL®"
+    And I should see the page title "iS CLINICAL® available at The Medical Aesthetic Clinic in Winchester"

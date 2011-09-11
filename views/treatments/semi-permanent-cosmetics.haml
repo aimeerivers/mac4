@@ -1,0 +1,35 @@
+- @page_title = "Semi-Permanent Cosmetics - enhance your natural beauty at The Medical Aesthetic Clinic in Winchester"
+
+#primary
+  %h1 Semi-Permanent Cosmetics
+
+  = partial :'partials/special-offer', locals: {current_page: 'semi-permanent-cosmetics', type: 'primary'}
+
+  .float.right
+    %img(src='/images/treatments/semi-permanent-cosmetics/semi-permanent-cosmetics-treatment-room.jpg' alt='Semi-permanent cosmetics treatment room')
+
+  %h2 Be Permanently Beautiful
+
+  %p Beautician Naomi O'Hara provides the very latest in semi-permanent cosmetics, using computerised equipment that eliminates any distress and enhances your looks and features.
+
+  %p The following treatments are available:
+
+  %ul
+    %li Eyebrow shaping and filling
+    %li Eyeliner
+    %li Lip liner
+    %li Full lip colour
+
+  %p Semi-permanent makeup uses micropigmentation to insert pigment into the skin, rather like a tattoo. The pigment stays in the skin for several years, gradually breaking down and fading.
+
+  %h2 Before/After Pictures
+  - key = 'semi-permanent-cosmetics'
+
+  = partial :'partials/treatments/before-after', locals: {key: key, before_image: 'lips-before-semi-permanent-cosmetic-treatment.jpg', before_text: 'Lips before semi-permanent cosmetic treatment', after_image: 'lips-after-semi-permanent-cosmetic-treatment.jpg', after_text: 'Lips after semi-permanent cosmetic treatment', main_text: 'Lips before and after semi-permanent cosmetic treatment.'}
+
+  = partial :'partials/treatments/before-after', locals: {key: key, before_image: 'eyeliner-before-semi-permanent-cosmetic-treatment.jpg', before_text: 'Eyeliner before semi-permanent cosmetic treatment', after_image: 'eyeliner-after-semi-permanent-cosmetic-treatment.jpg', after_text: 'Eyeliner after semi-permanent cosmetic treatment', main_text: 'Eyeliner before and after semi-permanent cosmetic treatment.'}
+
+#secondary
+  = partial :'partials/gift-vouchers'
+  = partial :'partials/treatments/list'
+  = partial :'partials/products/list'

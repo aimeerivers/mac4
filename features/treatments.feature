@@ -46,3 +46,8 @@ Feature: Treatements
     Then I should see the heading "Diathermy treatment"
     And I should see the page title "Diathermy treatment at The Medical Aesthetic Clinic in Winchester"
     And I should see "Single treatment starts from" within ".prices"
+
+  Scenario: Semi-permanent cosmetics
+    When I go to the Semi-permanent cosmetics page
+    Then I should see the heading "Semi-Permanent Cosmetics"
+    And I should see the page title "Semi-Permanent Cosmetics - enhance your natural beauty at The Medical Aesthetic Clinic in Winchester"

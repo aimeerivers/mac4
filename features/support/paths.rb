@@ -34,6 +34,9 @@ module NavigationHelpers
     when /the Diathermy treatment page/
       '/treatments/diathermy'
 
+    when /the Semi-permanent cosmetics page/
+      '/treatments/semi-permanent-cosmetics'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

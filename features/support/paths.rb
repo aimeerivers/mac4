@@ -40,6 +40,9 @@ module NavigationHelpers
     when /the Jan Marini products page/
       '/products/jan-marini'
 
+    when /the Sesha products page/
+      '/products/sesha'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

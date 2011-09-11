@@ -49,6 +49,9 @@ module NavigationHelpers
     when /the iS CLINICAL products page/
       '/products/is-clinical'
 
+    when /the About us page/
+      '/about'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

@@ -64,3 +64,7 @@ end
 get /\/products\/(#{views_in('products').join('|')})/ do |product|
   haml :"products/#{product}"
 end
+
+get /\/(#{views_in('').join('|')})/ do |page|
+  haml page.to_sym
+end

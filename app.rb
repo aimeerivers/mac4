@@ -60,3 +60,7 @@ end
 get /\/treatments\/(#{views_in('treatments').join('|')})/ do |treatment|
   haml :"treatments/#{treatment}"
 end
+
+get /\/products\/(#{views_in('products').join('|')})/ do |product|
+  haml :"products/#{product}"
+end

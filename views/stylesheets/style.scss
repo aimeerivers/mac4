@@ -94,6 +94,17 @@ body {
   clear: both;
 }
 
+a {
+  color: #735A9C;
+
+  &:hover {
+    color: #735A9C;
+  }
+  &:visited {
+    color: #735A9C;
+  }
+}
+
 header {
   p.title {
     text-align: center;
@@ -119,15 +130,10 @@ header {
 
         a {
           padding: 0 0.1em;
-          color: #735A9C;
           text-decoration: none;
 
           &:hover {
-            color: #735A9C;
             text-decoration: underline;
-          }
-          &:visited {
-            color: #735A9C;
           }
         }
       }
@@ -170,6 +176,10 @@ header {
 
   img {
     border: 1px solid #C8BBD7;
+
+    &.no-border {
+      border: none;
+    }
   }
 }
 

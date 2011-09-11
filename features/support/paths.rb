@@ -37,6 +37,9 @@ module NavigationHelpers
     when /the Semi-permanent cosmetics page/
       '/treatments/semi-permanent-cosmetics'
 
+    when /the Jan Marini products page/
+      '/products/jan-marini'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

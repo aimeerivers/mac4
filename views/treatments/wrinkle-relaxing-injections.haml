@@ -55,7 +55,7 @@
   %p Very rarely, some patients become resistant to the drug after several treatments, i.e. it no longer works effectively. In this unlikely event alternative forms of botulinum toxin are available to avoid this problem.
 
 #secondary
-  = partial :'partials/treatments/wrinkle-relaxing-injections/prices'
+  = partial :'partials/treatments/shared/prices', locals: {treatment: 'wrinkle-relaxing-injections'}
   = partial :'partials/gift-vouchers'
   = partial :'partials/special-offer', locals: {current_page: 'wrinkle-relaxing-injections', type: 'secondary'}
   = partial :'partials/treatments/list'

@@ -43,7 +43,7 @@
 
 #secondary
   = partial :'partials/treatments/sclerotherapy/faq'
-  = partial :'partials/treatments/sclerotherapy/prices'
+  = partial :'partials/treatments/shared/prices', locals: {treatment: 'sclerotherapy'}
   = partial :'partials/treatments/list'
   = partial :'partials/gift-vouchers'
   = partial :'partials/special-offer', locals: {current_page: 'sclerotherapy', type: 'secondary'}

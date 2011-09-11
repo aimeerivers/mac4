@@ -42,7 +42,7 @@
   %p A Synergie Peel microdermabrasion treatment is the most effective way to exfoliate and rejuvenate the skin. This safe and gentle procedure, known as the "lunchtime peel", requires no recuperative period &mdash; you can go right back to your daily activities with no interruptions.
 
 #secondary
-  = partial :'partials/treatments/microdermabrasion/prices'
+  = partial :'partials/treatments/shared/prices', locals: {treatment: 'microdermabrasion'}
   = partial :'partials/gift-vouchers'
   = partial :'partials/special-offer', locals: {current_page: 'microdermabrasion', type: 'secondary'}
   = partial :'partials/treatments/list'

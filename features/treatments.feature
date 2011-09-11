@@ -40,3 +40,8 @@ Feature: Treatements
     Then I should see the heading "Microdermabrasion treatment"
     And I should see the page title "Microdermabrasion treatment at The Medical Aesthetic Clinic in Winchester"
     And I should see "Course of 6 treatments" within ".prices"
+
+  Scenario: Diathermy
+    When I go to the Diathermy treatment page
+    Then I should see the heading "Diathermy treatment"
+    And I should see the page title "Diathermy treatment at The Medical Aesthetic Clinic in Winchester"

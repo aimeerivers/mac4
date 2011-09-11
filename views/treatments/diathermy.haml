@@ -14,5 +14,5 @@
   %p This technique is very effective and is widely used. Sometimes additional treatments are needed.
 
 #secondary
-  = partial :'partials/treatments/diathermy/prices'
+  = partial :'partials/treatments/shared/prices', locals: {treatment: 'diathermy'}
   = partial :'partials/treatments/list'

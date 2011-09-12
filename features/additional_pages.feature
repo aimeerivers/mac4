@@ -9,3 +9,8 @@ Feature: Additional pages
     When I go to the Links page
     Then I should see the heading "Useful and related links"
     And I should see the page title "The Medical Aesthetic Clinic - Useful and Related Links"
+
+  Scenario: Contact page
+    When I go to the Contact page
+    Then I should see the heading "How to contact us"
+    And I should see the page title "Contacting The Medical Aesthetic Clinic"

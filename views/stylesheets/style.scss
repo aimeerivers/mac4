@@ -75,7 +75,7 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: aimee daniells
    ========================================================================== */
 
 body {
@@ -185,7 +185,7 @@ header {
 
 #primary {
   .float {
-    img {
+    img, iframe {
       width: 95%;
     }
 
@@ -395,7 +395,7 @@ footer {
       &.small {
         width: 35%;
 
-        img {
+        img, iframe {
           width: 100%;
         }
       }
@@ -433,10 +433,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background-color: white;
-  }
-
   header {
     p.title {
       font-size: 2.1em;

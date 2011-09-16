@@ -1,5 +1,11 @@
 Feature: Products
 
+  Scenario: Products list
+    When I go to the products page
+    Then I should see the heading "Products available"
+    And I should see the page title "Products available from The Medical Aesthetic Clinic"
+    And I should see a list of products
+
   Scenario: Jan Marini
     When I go to the Jan Marini products page
     Then I should see the heading "Jan Marini skin research"

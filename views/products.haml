@@ -1,0 +1,17 @@
+- @page_title = "Products available from The Medical Aesthetic Clinic"
+
+#primary
+  %h1 Products available
+  %p We recommend and supply these product ranges which can be purchased at the clinic. Ask for advice on the most suitable products for you.
+
+  .products
+    = partial :'partials/product', locals: {key: 'jan-marini', name: 'Jan Marini skin research', description: 'to treat a wide range of skin conditions'}
+    = partial :'partials/product', locals: {key: 'sesha', name: 'Sesha skin therapy', description: 'revealing beautiful skin by feeding and nourishing it'}
+
+  .products
+    = partial :'partials/product', locals: {key: 'jane-iredale', name: 'Jane Iredale mineral make up', description: 'cosmetic enhancement to benefit the skin'}
+    = partial :'partials/product', locals: {key: 'is-clinical', name: 'iS CLINICAL&reg;', description: 'anti-aging skincare formulations'}
+
+#secondary
+  = partial :'partials/treatments/list'
+  = partial :'partials/find-us'

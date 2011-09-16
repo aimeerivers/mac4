@@ -1,0 +1,7 @@
+- link = "/products/#{key}"
+
+.product
+  %a(href=link)
+    %img(src="/images/products/#{key}/range-63.jpg" alt=name)
+  %a.title(href=link)= name
+  .description= description

@@ -229,8 +229,8 @@ header {
     margin-bottom: 1em;
   }
 
-  .treatments {
-    .treatment {
+  .treatments, .products {
+    .treatment, .product {
       margin-bottom: 1em;
       min-height: 100px;
       @include clearfix;
@@ -445,7 +445,7 @@ footer {
       }
     }
 
-    .treatments {
+    .treatments, .products {
       width: 45%;
       float: left;
       margin-right: 20px;
@@ -455,7 +455,7 @@ footer {
         margin-right: 0;
       }
 
-      .treatment {
+      .treatment, .product {
         img {
           width: 25%;
         }

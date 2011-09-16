@@ -13,3 +13,7 @@ end
 Then /^I should see a list of treatments$/ do
   page.should have_css('.treatments .treatment a.title')
 end
+
+Then /^I should see a list of products$/ do
+  page.should have_css('.products .product a.title')
+end

@@ -40,6 +40,9 @@ module NavigationHelpers
     when /the Semi-permanent cosmetics page/
       '/treatments/semi-permanent-cosmetics'
 
+    when /the products page/
+      '/products'
+
     when /the Jan Marini products page/
       '/products/jan-marini'
 

@@ -225,8 +225,12 @@ header {
   }
 
   .link {
-    border-bottom: 1px dotted #E9E3EF;
+    border-bottom: 1px dotted #BA94E5;
     margin-bottom: 1em;
+
+    a {
+      float: right;
+    }
   }
 
   .treatments, .products {

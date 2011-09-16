@@ -1,4 +1,4 @@
 .link
   %strong= title
-  %a.uri(href="#{uri}" target='_blank')= uri.sub(/^http:\/\//, '').sub(/\/$/, '')
+  %a.uri(href="#{uri}" target='_blank')= uri.sub(/^https?:\/\/(www\.)?/, '').sub(/\/$/, '')
   %p.description= description

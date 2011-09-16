@@ -1,5 +1,6 @@
 - date = start_of_month(Date.today)
 - special_offer = SpecialOffer.for_month(date.strftime('%B %Y'))
+- current_page ||= ''
 
 - return if special_offer.nil?
 - return if type == 'primary' and special_offer.key != current_page

@@ -1,0 +1,23 @@
+- @page_title = "Treatments available at The Medical Aesthetic Clinic"
+
+#primary
+  %h1 Treatments available
+  %p All treatments are carried out by a fully trained and professionally qualified nurse.
+
+  .treatments
+    = partial :'partials/treatment', locals: {key: 'ipl-permanent-hair-reduction', name: 'Pulsar Intense Pulsed Light (IPL)', description: 'for permanent hair reduction'}
+    = partial :'partials/treatment', locals: {key: 'dermaroller', name: 'Genuine Dermaroller&trade; Therapy', description: 'Natural skin regeneration and scar repair therapy'}
+    = partial :'partials/treatment', locals: {key: 'wrinkle-relaxing-injections', name: 'Wrinkle Relaxing Injections', description: 'for a softened, natural look'}
+    = partial :'partials/treatment', locals: {key: 'dermal-fillers', name: 'Dermal Fillers', description: 'to remove facial lines, wrinkles and folds'}
+
+
+  .treatments
+    = partial :'partials/treatment', locals: {key: 'sclerotherapy', name: 'Sclerotherapy', description: 'to remove thread veins in the legs'}
+    = partial :'partials/treatment', locals: {key: 'microdermabrasion', name: 'Microdermabrasion', description: 'for skin rejuvenation (skin peeling)'}
+    = partial :'partials/treatment', locals: {key: 'diathermy', name: 'Diathermy', description: 'for the removal of skin tags and facial thread veins'}
+    = partial :'partials/treatment', locals: {key: 'semi-permanent-cosmetics', name: 'Semi-Permanent Cosmetics', description: 'enhance your natural beauty'}
+
+#secondary
+  = partial :'partials/special-offer', locals: {type: 'secondary'}
+  = partial :'partials/gift-vouchers'
+  = partial :'partials/products/list'

@@ -228,6 +228,29 @@ header {
     border-bottom: 1px dotted #E9E3EF;
     margin-bottom: 1em;
   }
+
+  .treatments {
+    .treatment {
+      margin-bottom: 1em;
+      min-height: 100px;
+      @include clearfix;
+
+      img {
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        width: 20%;
+      }
+
+      a.title {
+        font-weight: bold;
+      }
+
+      .description {
+        font-size: 0.9em;
+      }
+    }
+  }
 }
 
 #secondary {
@@ -418,6 +441,23 @@ footer {
     .box.special-offer {
       img {
         width: 22%;
+      }
+    }
+
+    .treatments {
+      width: 45%;
+      float: left;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-left: 20px;
+        margin-right: 0;
+      }
+
+      .treatment {
+        img {
+          width: 25%;
+        }
       }
     }
   }

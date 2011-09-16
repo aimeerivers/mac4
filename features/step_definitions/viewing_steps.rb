@@ -9,3 +9,7 @@ end
 Then /^I should see the page title "([^"]*)"$/ do |title|
   page.should have_css('head title', text: title)
 end
+
+Then /^I should see a list of treatments$/ do
+  page.should have_css('.treatments .treatment a.title')
+end

@@ -1,5 +1,11 @@
 Feature: Treatements
 
+  Scenario: Treatments list
+    When I go to the treatments page
+    Then I should see the heading "Treatments available"
+    And I should see the page title "Treatments available at The Medical Aesthetic Clinic"
+    And I should see a list of treatments
+
   Scenario: IPL Permanent Hair Reduction
     When I go to the IPL treatment page
     Then I should see the heading "IPL Permanent Hair Reduction"

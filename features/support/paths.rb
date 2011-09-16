@@ -13,6 +13,9 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
 
+    when /the treatments page/
+      '/treatments'
+
     when /the IPL treatment page/
       '/treatments/ipl-permanent-hair-reduction'
 

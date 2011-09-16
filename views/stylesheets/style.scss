@@ -259,6 +259,7 @@ header {
     margin-right: 5px;
     margin-bottom: 10px;
     background: #E5ECF9;
+    font-size: 0.9em;
     @include border-radius(5px);
     @include clearfix;
 
@@ -297,7 +298,7 @@ header {
         font-weight: bold;
         text-decoration: underline;
         cursor: pointer;
-        font-size: 0.9em;
+        font-size: 0.95em;
         margin-top: 0.5em;
       }
 

@@ -20,8 +20,8 @@
   large_image: '/images/treatments/dermaroller/dermaroller-88.jpg'
 
 'dermal-fillers':
-  short_description: 'Course of 3 Restylane Vital treatments for &pound;500 (saving &pound;200)'
-  long_description: "<p><em>Skin Rejuvenation From Within.</em><br>As a special Spring offer, book a <strong>course of 3</strong> for <strong>&pound;500 (saving &pound;200).</strong> Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>></p>."
+  short_description: '15% saving on Restylane treatment'
+  long_description: "Restylane treatment, for those wrinkles, lips or folds - normally £320 now £272 (15% off)"
   link: '/treatments/dermal-fillers'
   small_image: '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
   large_image: '/images/treatments/dermal-fillers/dermal-fillers-123.jpg'

@@ -4,7 +4,8 @@ class SpecialOffer
     def for_month(month)
       offers = {
         'September 2011' => 'ipl-permanent-hair-reduction',
-        'October 2011' => 'dermal-fillers'
+        'October 2011' => 'dermal-fillers',
+        'November 2011' => 'jan-marini'
       }
       by_key(offers[month])
     end

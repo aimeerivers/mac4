@@ -46,8 +46,8 @@
   large_image: '/images/products/jane-iredale/jane-iredale-brown-eyes-223.jpg'
 
 'jan-marini':
-  short_description: 'Jan Marini Skin Care and Fire and Ice Facials'
-  long_description: "<p>During <<month>>, purchase the following for the offer price of &pound;185.00:</p><ul><li>Jan Marini’s Bioglycolic Facial Cleanser</li><li>Bioglycolic Bioclear Facial Lotion or Cream</li><li>Antioxidant Daily Face Protectant SPF30</li><li>and a Fire and Ice Facial</li></ul><p>Normal price &pound;233.00</p><p>Although the package runs for <<month>> only, you are free to have your Fire and Ice Facial at a time suitable for you.</p>"
+  short_description: '20% off on any ONE Jan Marini skin care product.'
+  long_description: "Buy any Jan Marini product and receive 20% off the retail price."
   link: '/products/jan-marini'
   small_image: '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg'
   large_image: '/images/products/jan-marini/jan-marini-bioclear-cream-123.jpg'

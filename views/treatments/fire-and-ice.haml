@@ -1,0 +1,31 @@
+- @page_title = "Fire and Ice treatment at The Medical Aesthetic Clinic in Winchester"
+
+#primary
+  %h1 Fire and Ice treatment
+
+  = partial :'partials/special-offer', locals: {current_page: 'fire-and-ice', type: 'primary'}
+
+  .float.right
+    %img(src='/images/products/is-clinical/fire-and-ice-303.jpg' alt='Fire and Ice')
+
+  %p This intensive clinical facial is designed to rapidly and safely resurface the skin, reducing fine lines and wrinkles, smoothing, softening, and encouraging cellular renewal. The centrepiece of this remarkable treatment system is a combination of two therapeutic masques.
+
+  %p
+    The extremely powerful
+    %strong INTENSIVE RESURFACING MASQUE
+    is clinically formulated with: sugar cane extract (a source of glycolic acid) (18%), citric acid, apple extract, retinol (vitamin A), niacinamide (vitamin B3), and potent antioxidants &ndash; including green tea extract.
+
+  %p
+    The second masque is the
+    %strong REJUVENATING MASQUE
+    which is a soothing hydrating treatment formulated with sodium hyaluronate (hyaluronic acid), aloe vera, green tea extract, licorice extract, grape seed extract, and rosemary extract.
+
+  %p
+    Also available:
+    %a(href='/products/is-clinical') iS CLINICAL&reg;
+    skincare products.
+
+#secondary
+  = partial :'partials/treatments/list'
+  = partial :'partials/special-offer', locals: {current_page: 'fire-and-ice', type: 'secondary'}
+  = partial :'partials/find-us'

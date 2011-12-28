@@ -1,0 +1,11 @@
+#fb-root
+:javascript
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=136899502027";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+%div(class="fb-like-box" data-href="http://www.facebook.com/pages/The-Medical-Aesthetic-Clinic/250677694968122" data-width="292" data-show-faces="true" data-border-color="#C8BBD7" data-stream="false" data-header="true")

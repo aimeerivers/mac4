@@ -470,6 +470,46 @@ header {
     margin-bottom: 10px;
     @include clearfix;
   }
+
+  .twitter, .products, .treatments {
+    margin-bottom: 10px;
+  }
+
+  .treatment-list {
+    .box {
+      background: #E9E3EF;
+      padding-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }
+
+  .product-list {
+    .box {
+      background: #FFE3FC;
+      float: left;
+      width: 100%;
+      padding-bottom: 0;
+    }
+
+    .product {
+      @include clearfix;
+
+      img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 1em;
+      }
+
+      p {
+        margin-top: 5px;
+      }
+    }
+  }
+
 }
 
 footer {
@@ -609,6 +649,15 @@ footer {
           width: 99%;
         }
       }
+    }
+
+    .treatment-list {
+      width: 49%;
+      float: left;
+    }
+
+    .product-list {
+      margin-left: 51%;
     }
   }
 

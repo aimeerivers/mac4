@@ -1,0 +1,27 @@
+%script(src="http://widgets.twimg.com/j/2/widget.js")
+:javascript
+  new TWTR.Widget({
+    version: 2,
+    type: 'profile',
+    rpp: 2,
+    interval: 30000,
+    width: 'auto',
+    height: 300,
+    theme: {
+      shell: {
+        background: '#DBC8F2',
+        color: '#513184'
+      },
+      tweets: {
+        background: '#ffffff',
+        color: '#513184',
+        links: '#735a9c'
+      }
+    },
+    features: {
+      scrollbar: false,
+      loop: false,
+      live: false,
+      behavior: 'all'
+    }
+  }).render().setUser('cathyclinic').start();

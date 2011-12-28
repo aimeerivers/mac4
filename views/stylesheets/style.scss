@@ -465,6 +465,11 @@ header {
       color: #C4BAD6;
     }
   }
+
+  .testimonial {
+    margin-bottom: 10px;
+    @include clearfix;
+  }
 }
 
 footer {
@@ -658,6 +663,12 @@ footer {
         width: 98%;
         float: none;
       }
+    }
+
+    .twitter {
+      width: 65%;
+      float: right;
+      margin-left: 0;
     }
   }
 

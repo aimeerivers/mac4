@@ -153,7 +153,7 @@ header {
   }
 }
 
-#primary, #secondary {
+#primary, #secondary, #home {
   h1, h2, h3, h4, h5, h6 {
     color: #513184;
     line-height: 1.2;
@@ -380,6 +380,81 @@ header {
   }
 }
 
+#home {
+  .box {
+    background: #D4CCE0;
+    padding: 10px;
+    @include border-radius(5px);
+  }
+
+  .special-offer {
+    margin-bottom: 10px;
+    background: #C2B1D3;
+    @include clearfix;
+
+    img {
+      width: 40%;
+      margin-left: 10px;
+      float: right;
+    }
+  }
+
+  .call-today {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #886AA9;
+    color: #fff;
+    font-size: 1.3em;
+    @include border-radius(5px);
+  }
+
+  .gift-vouchers {
+    background: #FFC7FA;
+  }
+
+  .find-us {
+    background: #DBC8F2;
+  }
+
+  .gift-vouchers, .find-us {
+    margin-bottom: 10px;
+    h2 {
+      display: none;
+    }
+
+    img {
+      float: right;
+      width: 20%;
+    }
+
+    p {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      font-size: 0.95em;
+    }
+  }
+
+  .discount {
+    background: #886AA9;
+    margin-bottom: 10px;
+    @include border-radius(5px);
+
+    strong {
+      display: block;
+      color: #fff;
+      text-align: center;
+      font-size: 1.1em;
+    }
+
+    small {
+      display: block;
+      text-align: center;
+      font-size: 0.7em;
+      color: #C4BAD6;
+    }
+  }
+}
+
 footer {
   clear: both;
   margin-top: 1.5em;
@@ -475,6 +550,17 @@ footer {
       float: left;
     }
   }
+
+  #home {
+    .half.left {
+      width: 49%;
+      float: left;
+    }
+    .half.right {
+      margin-left: 51%;
+    }
+  }
+
 }
 
 @media only screen and (min-width: 801px) {

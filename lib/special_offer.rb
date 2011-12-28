@@ -5,7 +5,8 @@ class SpecialOffer
       offers = {
         'September 2011' => 'ipl-permanent-hair-reduction',
         'October 2011' => 'dermal-fillers',
-        'November 2011' => 'jan-marini'
+        'November 2011' => 'jan-marini',
+        'December 2011' => 'jan-marini'
       }
       by_key(offers[month])
     end

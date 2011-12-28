@@ -1,0 +1,12 @@
+- date = start_of_month(Date.today)
+- special_offer = SpecialOffer.for_month(date.strftime('%B %Y'))
+
+- return if special_offer.nil?
+
+.box.special-offer
+  %h2== #{date.strftime('%B')} Offer
+  - if special_offer.large_image
+    %img(src="#{special_offer.large_image}" alt='')
+  = special_offer.long_description_text(date.strftime('%B'), (date + 32).strftime('%B'))
+  %p
+    %a(href="#{special_offer.link}") find out more &gt;

@@ -141,7 +141,7 @@ header {
   }
 }
 
-#primary, #secondary, footer {
+#primary, #secondary, #home, footer {
   * {
     margin-left: 5px;
     margin-right: 5px;
@@ -434,6 +434,18 @@ header {
     }
   }
 
+  .welcome {
+    margin-bottom: 10px;
+
+    .text {
+      font-size: 1.1em;
+
+      h2 {
+        margin-top: 10px;
+      }
+    }
+  }
+
   .discount {
     background: #886AA9;
     margin-bottom: 10px;
@@ -559,6 +571,40 @@ footer {
     .half.right {
       margin-left: 51%;
     }
+
+    .welcome {
+      @include clearfix;
+      .text {
+        width: 48%;
+        float: left;
+      }
+
+      .picture {
+        width: 49%;
+        float: right;
+        margin-bottom: 10px;
+
+        img {
+          width: 99%;
+        }
+      }
+    }
+
+    .testimonial {
+      .text {
+        width: 50%;
+        float: right;
+      }
+
+      .picture {
+        width: 49%;
+        float: left;
+
+        img {
+          width: 99%;
+        }
+      }
+    }
   }
 
 }
@@ -589,6 +635,29 @@ footer {
     .box {
       width: 95%;
       float: none;
+    }
+  }
+
+  #home {
+    .welcome {
+      width: 65%;
+      float: right;
+      margin-left: 0;
+    }
+
+    .testimonial {
+      width: 33%;
+      float: left;
+
+      .picture {
+        width: 98%;
+        float: none;
+      }
+
+      .text {
+        width: 98%;
+        float: none;
+      }
     }
   }
 

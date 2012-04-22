@@ -8,5 +8,6 @@
   - if special_offer.large_image
     %img(src="#{special_offer.large_image}" alt='')
   = special_offer.long_description_text(date.strftime('%B'), (date + 32).strftime('%B'))
-  %p
-    %a(href="#{special_offer.link}") find out more &gt;
+  - if special_offer.link
+    %p
+      %a(href="#{special_offer.link}") find out more &gt;

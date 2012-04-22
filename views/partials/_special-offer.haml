@@ -15,8 +15,8 @@
 
   - elsif type == 'secondary'
     %h2= "#{date.strftime('%B')} Offer"
-    %a(href="#{special_offer.link}")
-      %img(src="#{special_offer.small_image}" alt='')
+    %img(src="#{special_offer.small_image}" alt='')
     %p= special_offer.short_description_text(date.strftime('%B'))
-    %p
-      %a(href="#{special_offer.link}") find out more &gt;
+    - if special_offer.link
+      %p
+        %a(href="#{special_offer.link}") find out more &gt;

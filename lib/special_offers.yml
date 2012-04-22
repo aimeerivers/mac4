@@ -51,3 +51,9 @@
   link: '/products/jan-marini'
   small_image: '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg'
   large_image: '/images/products/jan-marini/jan-marini-bioclear-cream-123.jpg'
+
+'hampshire-chronicle':
+  short_description: "Check the Hampshire Chronicle for this month's offer"
+  long_description: "Please see the Hampshire Chronicle for the latest special offers."
+  small_image: '/images/offers/hampshire-chronicle-88.jpg'
+  large_image: '/images/offers/hampshire-chronicle-123.jpg'

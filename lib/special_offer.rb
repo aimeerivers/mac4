@@ -6,7 +6,12 @@ class SpecialOffer
         'September 2011' => 'ipl-permanent-hair-reduction',
         'October 2011' => 'dermal-fillers',
         'November 2011' => 'jan-marini',
-        'December 2011' => 'jan-marini'
+        'December 2011' => 'jan-marini',
+        'January 2012' => 'hampshire-chronicle',
+        'February 2012' => 'hampshire-chronicle',
+        'March 2012' => 'hampshire-chronicle',
+        'April 2012' => 'hampshire-chronicle',
+        'May 2012' => 'hampshire-chronicle'
       }
       by_key(offers[month])
     end

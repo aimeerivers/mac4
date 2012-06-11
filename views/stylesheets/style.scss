@@ -446,6 +446,15 @@ header {
     }
   }
 
+  .banner {
+    height: 263px;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 30%;
+    margin-bottom: 10px;
+    @include border-radius(5px);
+  }
+
   .discount {
     background: #886AA9;
     margin-bottom: 10px;

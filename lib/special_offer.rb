@@ -11,7 +11,8 @@ class SpecialOffer
         'February 2012' => 'hampshire-chronicle',
         'March 2012' => 'hampshire-chronicle',
         'April 2012' => 'hampshire-chronicle',
-        'May 2012' => 'hampshire-chronicle'
+        'May 2012' => 'hampshire-chronicle',
+        'July 2012' => 'fire-and-ice'
       }
       by_key(offers[month])
     end

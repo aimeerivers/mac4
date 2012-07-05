@@ -33,10 +33,11 @@
   small_image: '/images/treatments/microdermabrasion/microdermabrasion-88.jpg'
 
 'fire-and-ice':
-  short_description: '20% off when you purchase a course of 3 Fire and Ice facial treatments in <<month>>'
-  long_description: "<p>Book a course of 3 treatments and enjoy a <strong>limited offer of 20% off.</strong> Normal price &pound;65 per treatment. Your course of 3 must be paid for in advance during <<month>> and your first appointment taken during <<month>> or <<next-month>>.</p>"
-  link: '/products/is-clinical/#fire-and-ice'
-  small_image: '/images/products/is-clinical/fire-and-ice-88.jpg'
+  short_description: 'Fire and Ice Facial - half price in <<month>>'
+  long_description: "Fire and Ice Facial - normally &pound;80 - at a special price of &pound;40 in <<month>>."
+  link: '/treatments/fire-and-ice'
+  small_image: '/images/treatments/fire-and-ice/fire-and-ice-88.jpg'
+  large_image: '/images/treatments/fire-and-ice/fire-and-ice-303.jpg'
 
 'jane-iredale':
   short_description: 'A personal consultation with our Jane Iredale Professional Make Up Artist'

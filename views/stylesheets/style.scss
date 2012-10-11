@@ -500,8 +500,6 @@ header {
   .product-list {
     .box {
       background: #FFE3FC;
-      float: left;
-      width: 100%;
       padding-bottom: 0;
     }
 
@@ -662,12 +660,13 @@ footer {
     }
 
     .treatment-list {
-      width: 49%;
+      width: 48%;
       float: left;
     }
 
     .product-list {
-      margin-left: 51%;
+      width: 48%;
+      float: right;
     }
   }
 
@@ -724,26 +723,15 @@ footer {
       }
     }
 
-    .twitter {
-      width: 65%;
-      float: right;
-      margin-left: 0;
-    }
-
-    .facebook {
-      width: 32%;
-      text-align: right;
-      float: right;
-    }
-
     .treatment-list {
-      width: 32%;
+      width: 31%;
       margin-right: 0;
     }
 
     .product-list {
       width: 31%;
-      margin-left: 34%;
+      float: right;
+      margin-left: auto;
     }
   }
 

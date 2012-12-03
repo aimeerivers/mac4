@@ -4,6 +4,9 @@
   %h1 Gift vouchers
 
   .float.left
+    %img(src='/images/gift-vouchers/bowtie-303.jpg' alt='It is festive time!')
+    %br
+    %br
     %img(src='/images/gift-vouchers/gift-voucher-303.jpg' alt='Gift voucher')
 
   %p We offer gift vouchers on all our treatments and products.
@@ -14,6 +17,10 @@
     %a(href='/contact') contact us
     for more information.
 
+  %p
+    %br
+    = partial :'partials/find-us'
+
 #secondary
-  = partial :'partials/find-us'
   = partial :'partials/treatments/list'
+  = partial :'partials/products/list'

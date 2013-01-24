@@ -1,6 +1,6 @@
 /* Author:
-  aimee daniells
-  http://sermoasquared.co.uk
+  aimee rivers
+  http://aimeerivers.com
 */
 
 $(function() {

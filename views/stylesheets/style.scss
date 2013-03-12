@@ -480,6 +480,10 @@ header {
   .testimonial {
     margin-bottom: 10px;
     @include clearfix;
+
+    p {
+      font-size: 1.1em;
+    }
   }
 
   .twitter, .products, .treatments {

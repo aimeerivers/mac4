@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'haml'
 require 'sass'
+require 'date'
 Dir["lib/**/*.rb"].each {|f| require "./#{f}"}
 
 #

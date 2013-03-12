@@ -448,10 +448,11 @@ header {
   }
 
   .banner {
-    height: 263px;
+    height: 320px;
     background-image: url(/images/banner.jpg);
     background-repeat: no-repeat;
-    background-position: 30%;
+    background-size: 100% auto;
+    background-position: center;
     margin-bottom: 10px;
     @include border-radius(5px);
   }

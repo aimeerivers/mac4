@@ -3,6 +3,8 @@ require 'sinatra'
 require 'haml'
 require 'sass'
 require 'date'
+require 'yaml'
+
 Dir["lib/**/*.rb"].each {|f| require "./#{f}"}
 
 #

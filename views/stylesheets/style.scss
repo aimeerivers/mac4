@@ -381,6 +381,22 @@ header {
   }
 }
 
+#main .notice {
+  background-color: #fcf8e3;
+  border: 2px solid #fbeed5;
+  color: #c09853;
+  padding: 0.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  @include border-radius(5px);
+
+  strong.alert {
+    font-size: 1.3em;
+    color: #c09853;
+  }
+}
+
 #home {
   .box {
     background: #D4CCE0;
